@@ -1,0 +1,308 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: "Uotfit";
+	src: url(/Шрифты/outfit/Outfit-VariableFont_wght.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Lexend";
+	src: url(/Шрифты/Lexend/Lexend-VariableFont_wght.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Montserrat Alternates";
+	src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Montserrat AlternatesMedium";
+	src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-Medium.ttf);
+	margin: 0;
+}
+body{
+	margin: 0;
+	width: auto;
+}
+header{
+	background-color: #E06D3B;
+	font-family: "Uotfit";
+}
+.header_navBlock{
+	font-family: "Uotfit";
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 0 auto;
+  padding: 20px; 
+}
+.logoBlock{
+	display: flex;
+	width: max-content;
+}
+.textLogo{
+	font-size: 24px;
+	color: #ffffff;
+	padding: 12px 12px;
+}
+.ul_blockHeader{
+	display: flex;
+	list-style-type: none;
+
+}
+.ul_blockHeader a{
+
+	text-decoration: none;
+	color: #ffffff;
+}
+.itemLi_link{
+	font-family: "Montserrat Alternates";
+	font-weight: 100;
+	margin-right: 30px;
+	align-items: center;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+
+
+/* -----------main             */
+
+.firstMainBlock{
+	font-family: "Montserrat Alternates";
+	width: 1440px;
+	height: 900px;
+	margin: 0 auto;
+  padding: 20px; 
+	background-image: url(/img/mainBlock.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+.mainInfo_block{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+}
+.mainTextInfo_block{
+	width: 870px;
+	margin: 147px 0 20px 0px;
+	font-size: 72px;
+}
+.secondTextInfo_block{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 17px;
+	line-height: 160%;
+	color: #D3DBDF;
+	width: 747px;
+	margin-bottom: 40px;
+}
+.btnTextInfo_block{
+	font-family: "Montserrat Alternates";
+	border-radius: 10px;
+	border: solid 1px black;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 230px;
+	height: 50px;
+	background-color: #E76A33;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.849);
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/*  о нас  */
+.aboutUs_block{
+	margin: 0 auto;
+  padding: 20px; 
+	display: flex;
+	flex-direction: column;
+	width: 770px;
+	height: max-content;
+}
+.aboutUs_MainText{
+	font-family: "Montserrat AlternatesMedium";
+ 	font-size: 36px;
+ 	color: #2F2E2E;
+	margin-bottom: 20px;
+}
+.aboutUs_secondText{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 18px;
+	color: #747273;
+}
+
+
+.aboutUsMain_block{
+	margin: 0 auto;
+  padding: 20px; 
+	display: flex;
+	width: max-content;
+}
+.item_card-aboutUs{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 500px;
+	margin-right: 30px;
+}
+.item_card-aboutUs:last-child{
+	margin: 0px;
+}
+.item_card-aboutUs:nth-child(1) .photoBlock-aboutUs{
+	background-image: url(/img/aboutBg3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 18px;
+}
+.item_card-aboutUs:nth-child(2) .photoBlock-aboutUs{
+	background-image: url(/img/aboutBg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 18px;
+}
+.item_card-aboutUs:nth-child(3) .photoBlock-aboutUs{
+	background-image: url(/img/aboutBg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 18px;
+}
+.mainText_ItemCard-aboutUs{
+	font-family: "Montserrat AlternatesMedium";
+	color: #525053;
+	font-size: 24px;
+	width: 380px;
+	height: 80px;
+	margin: 0 10px 10px 10px;
+}
+.secondText_ItemCard-aboutUs{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 17px;
+	color: #7A777A;
+	margin: 0 10px 0 10px;
+}
+.secondBlocknull{
+	background-image: url(/img/secondBlock.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 1440px;
+	height: 900px;
+	margin: 0 auto;
+  padding: 20px; 
+}
+.productTextBlock{
+	width: 1240px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+  padding: 20px; 
+}
+.mainText_Blockproduct{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 39px;
+	color: #403E3F;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 14px;
+}
+.secondText_Blockproduct{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 21px;
+	color: #8C8889;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+/* продукт блок */
+.productMain_block{
+	display: flex;
+	width: 1250px;
+	height: 800px;
+	margin: 0 auto;
+  padding: 20px; 
+}
+.itemCardProduct_productBlock{
+	width: 400px;
+	height: 690px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+	justify-content: center;
+}
+.itemCardProduct_productBlock:last-child{
+	margin: 0;
+}
+.itemCardProduct_productBlock:nth-child(1) .photoProduct_productBlock{
+ 	background-image: url(/img/product3.png);
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+	width: 400px;
+	height: 535px;
+}
+.itemCardProduct_productBlock:nth-child(2) .photoProduct_productBlock{
+	background-image: url(/img/product2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+ width: 400px;
+ height: 535px;
+}
+.itemCardProduct_productBlock:nth-child(3) .photoProduct_productBlock{
+	background-image: url(/img/product1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+ width: 400px;
+ height: 535px;
+}
+.mainTextItemCard_productBlock{
+	font-family: "Montserrat AlternatesMedium";
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	width: 290px;
+	height: 62px;
+	color: #848184;
+	font-size: 19px;
+	margin-bottom: 40px;
+}
+.secondMainTextItemCard_productBlock{
+	font-family: "Montserrat Alternates";
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #AAA6A6;
+}
+.reviewsTextBlock{
+	width: 1240px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+  padding: 20px; 
+}
+.mainText_Blockreviews{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 39px;
+	color: #403E3F;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 14px;
+}
+.secondText_Blockreviews{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 21px;
+	color: #8C8889;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
