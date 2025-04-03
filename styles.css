@@ -2,6 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+li{
+	list-style-type: none;
+}
 @font-face{
 	font-family: "Uotfit";
 	src: url(/Шрифты/outfit/Outfit-VariableFont_wght.ttf);
@@ -135,8 +138,6 @@ header{
 	font-size: 18px;
 	color: #747273;
 }
-
-
 .aboutUsMain_block{
 	margin: 0 auto;
   padding: 20px; 
@@ -288,7 +289,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-  padding: 20px; 
+  padding: 20px;
 }
 .mainText_Blockreviews{
 	font-family: "Montserrat AlternatesMedium";
@@ -305,4 +306,204 @@ header{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	margin-bottom: 40px;
+}
+/* блок с отзывами */
+.reviewsMain_block{
+	font-family: "Montserrat AlternatesMedium";
+	display: flex;
+	width: 1260px;
+	height: max-content;
+	margin-bottom: 120px;
+}
+.itemCard_productReviews{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: max-content;
+	margin-right: 32px;
+}
+.itemCard_productReviews:last-child{
+	margin: 0;
+}
+.itemCard_productReviews:nth-child(1) .photoReviews_ReviewsBlock{
+	background-image: url(/img/Reviews1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 535px;
+}
+.itemCard_productReviews:nth-child(2) .photoReviews_ReviewsBlock{
+	background-image: url(/img/Reviews2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 535px;
+}
+.itemCard_productReviews:nth-child(3) .photoReviews_ReviewsBlock{
+	background-image: url(/img/Reviews3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 535px;
+}
+.ReviewsTextBlock{
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 15px;
+	border: solid 1px #858184;
+
+}
+.ballBlock{
+	display: flex;
+	justify-content: space-between;
+	color: #858184;
+	font-size: 25px;
+	margin-bottom: 11px;
+}
+.textReviews{
+	color: #858184;
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+	padding-bottom: 25px;
+}
+.lastBlock{
+	display: flex;
+	width: 1440px;
+	height: 850px;
+	margin: 0 auto;
+}
+.mainTextBlock_lastBlock{
+	display: flex;
+	flex-direction: column;
+	width: 580px;
+	margin-top: 160px;
+	margin-right: 48px;
+}
+.mainText_lastBlock{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 43px;
+	color: #302F30;
+	margin-bottom: 20px;
+}
+.secondTextBlock_lastBlock{
+	font-family: "Montserrat AlternatesMedium";
+	font-size: 18px;
+	color: #9F9EA0;
+}
+.btnBuy_lastBlock{
+	font-family: "Montserrat AlternatesMedium";
+	background-color: #F8763E;
+	width: max-content;
+	border-radius: 13px;
+	color: #FDDAC1;
+	padding: 20px 40px 20px 40px;
+	text-decoration: none;
+	margin-top: 50px;
+	transition: ease 500ms;
+}
+.btnBuy_lastBlock:hover{
+	color: #302F30;
+	transition: ease 500ms;
+}
+.mainphoto_lastBlock{
+	background-image: url(/img/lastBg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 720px;
+	height: 780px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+.pos_photo{
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+/* подвал */
+footer{
+	/* display: flex;
+	justify-content: center; */
+	background-color: #302F30;
+	width: auto;
+	height: 370px;
+}
+.footer_block{
+	padding-top: 122px;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+}
+.LogoFooter_block{
+	display: flex;
+	flex-direction: column;
+	width: 175px;
+	height: 170px;
+	justify-content: space-between;
+	margin-right: 100px;
+}
+.LogoFooter{
+	width: 95px;
+	height: 95px;
+}
+.textLogoFooter_block{
+	font-family: "Montserrat AlternatesMedium";
+	width: 175px;
+	height: auto;
+	color: #A7A7A5;
+	font-size: 13px;
+
+}
+.fastLink_block_footer{
+	width: 300px;
+	margin-right: 20px;
+}
+.fastLink_block_footer:last-child{
+	margin: 0px;
+}
+.Link_footerBlock{
+	display: flex;
+	flex-direction: column;
+}
+.itemLink_footerBlock:first-child{
+	font-family: "Montserrat Alternates";
+	color: #dededad2;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.itemLink_footerBlock{
+	font-family: "Montserrat AlternatesMedium";
+	color: #A7A7A5;
+	font-size: 16px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+.itemLink_footerBlock a{
+	font-family: "Montserrat AlternatesMedium";
+	color: #A7A7A5;
+	font-size: 16px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: ease 500ms;
+}
+.itemLink_footerBlock a:hover{
+	transition: ease 500ms;
+	color: white;
+}
+.itemLink_footerBlock:last-child{
+	margin: 0;
+}
+.textFotMob{
+	display: none;
+}
+.reponsiveBlock_mob{
+	display: flex;
 }

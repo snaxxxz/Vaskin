@@ -1,0 +1,472 @@
+@media (max-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	li{
+		list-style-type: none;
+	}
+	@font-face{
+		font-family: "Uotfit";
+		src: url(/Шрифты/outfit/Outfit-VariableFont_wght.ttf);
+		margin: 0;
+	}
+	@font-face{
+		font-family: "Lexend";
+		src: url(/Шрифты/Lexend/Lexend-VariableFont_wght.ttf);
+		margin: 0;
+	}
+	@font-face{
+		font-family: "Montserrat Alternates";
+		src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+		margin: 0;
+	}
+	@font-face{
+		font-family: "Montserrat AlternatesMedium";
+		src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-Medium.ttf);
+		margin: 0;
+	}
+	body{
+		margin: 0;
+		width: auto;
+		height: max-content;
+	}
+	main{
+		height:max-content;
+	}
+	.header_navBlock{
+		font-family: "Uotfit";
+		font-weight: 700;
+		display: flex;
+		justify-content: space-between;
+		max-width: 390px;
+		margin: 0 auto;
+		padding: 20px; 
+	}
+	.logoBlock{
+		width: 108px;
+		height: 50px;
+		display: flex;
+		width: max-content;
+	}
+	.textLogo{
+		font-size: 16px;
+		color: #ffffff;
+		padding: 16px 0 16px 0;
+	}
+	.ul_blockHeader{
+		display: none;
+	}
+	.itemLi_link{
+		display: none;
+	}
+	/* -----------main             */
+	.firstMainBlock{
+		font-family: "Montserrat Alternates";
+		width: 390px;
+		height: 445px;
+		margin: 0 auto;
+		background-image: url(/img/mainBlock.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		padding: 0;
+	}
+	.mainInfo_block{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	.mainTextInfo_block{
+		width: 350px;
+		margin: 40px 20px 20px 20px;
+		font-size: 32px;
+	}
+	.secondTextInfo_block{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 16px;
+		line-height: 120%;
+		width: 350px;
+		height: auto;
+		color: #D3DBDF;
+		margin: 0px 20px 20px 20px;
+	}
+	.btnTextInfo_block{
+		font-family: "Montserrat Alternates";
+		border-radius: 20px;
+		border: none;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		width: 350px;
+		height: 40px;
+		margin: 0 20px 0 20px;
+		background-color: #E76A33;
+		text-decoration: none;
+		color: #FDDAC1;
+		font-size: 13px;
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	}
+	/*  о нас  */
+	.aboutUs_block{
+		margin: 0 auto;
+	  padding: 20px; 
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: max-content;
+	}
+	.aboutUs_MainText{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 36px;
+		color: #2F2E2E;
+		margin-bottom: 20px;
+	}
+	.aboutUs_secondText{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 16px;
+		color: #747273;
+		padding: 0;
+	}
+	.aboutUsMain_block{
+		margin: 0 auto;
+		padding: 20px; 
+		display: flex;
+		flex-direction: column;
+		width: max-content;
+	}
+	.item_card-aboutUs{
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: 440px;
+		margin-right: 30px;
+	}
+	.item_card-aboutUs:last-child{
+		margin: 0px;
+	}
+	.item_card-aboutUs:nth-child(1) .photoBlock-aboutUs{
+		background-image: url(/img/aboutBg3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 270px;
+		margin-bottom: 18px;
+	}
+	.item_card-aboutUs:nth-child(2) .photoBlock-aboutUs{
+		background-image: url(/img/aboutBg2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 270px;
+		margin-bottom: 18px;
+	}
+	.item_card-aboutUs:nth-child(3) .photoBlock-aboutUs{
+		background-image: url(/img/aboutBg1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 270px;
+		margin-bottom: 18px;
+	}
+	.mainText_ItemCard-aboutUs{
+		font-family: "Montserrat AlternatesMedium";
+		color: #525053;
+		font-size: 24px;
+		width: 380px;
+		height: max-content;
+		margin: 0 10px 10px 10px;
+	}
+	.secondText_ItemCard-aboutUs{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 17px;
+		color: #7A777A;
+		margin: 0 10px 40зч 10px;
+	}
+	.secondBlocknull{
+		background-image: url(/img/secondBlock.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 390px;
+		height: 235px;
+		margin: 0 auto;
+		padding: 20px; 
+	}
+	.productTextBlock{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 350px;
+		height: 210px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding: 20px; 
+	}
+	.mainText_Blockproduct{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 39px;
+		color: #403E3F;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 14px;
+	}
+	.secondText_Blockproduct{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 19px;
+		color: #8C8889;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.productMain_block{
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: max-content;
+		margin: 0 auto;
+		padding: 20px; 
+	}
+	.itemCardProduct_productBlock{
+		margin: 0 auto;
+		width: 350px;
+		height: 646px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.itemCardProduct_productBlock:nth-child(1) .photoProduct_productBlock{
+		background-image: url(/img/product3.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	 	width: 350px;
+	 	height: 470px;
+ 	}
+ 	.itemCardProduct_productBlock:nth-child(2) .photoProduct_productBlock{
+	 	background-image: url(/img/product2.png);
+	 	background-repeat: no-repeat;
+	 	background-size: contain;
+	 	width: 350px;
+	 	height: 470px;
+ 	}
+ 	.itemCardProduct_productBlock:nth-child(3) .photoProduct_productBlock{
+	 	background-image: url(/img/product1.png);
+	 	background-repeat: no-repeat;
+	 	background-size: contain;
+	 	width: 350px;
+	 	height: 470px;
+ 	}
+ 	.reviewsTextBlock{
+		width: 350px;
+		height: 1900px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+  	padding: 20px;
+	}
+	.mainText_Blockreviews{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 32px;
+		color: #403E3F;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 14px;
+	}
+	.secondText_Blockreviews{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 19px;
+		color: #8C8889;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.reviewsMain_block{
+		font-family: "Montserrat AlternatesMedium";
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: max-content;
+		margin-bottom: 120px;
+	}
+	.itemCard_productReviews{
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: max-content;
+		margin-right: 0px
+	}
+	.itemCard_productReviews:nth-child(1) .photoReviews_ReviewsBlock{
+		background-image: url(/img/Reviews1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 476px;
+	}
+	.itemCard_productReviews:nth-child(2) .photoReviews_ReviewsBlock{
+		background-image: url(/img/Reviews2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 476px;
+	}
+	.itemCard_productReviews:nth-child(3) .photoReviews_ReviewsBlock{
+		background-image: url(/img/Reviews3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 350px;
+		height: 476px;
+	}
+	.lastBlock{
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		height: max-content;
+		margin: 0 auto;
+	}
+	.mainTextBlock_lastBlock{
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+		margin-top: 80px;
+		margin-right: 0px;
+	}
+	.mainText_lastBlock{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 24px;
+		color: #302F30;
+		margin-bottom: 20px;
+	}
+	.secondTextBlock_lastBlock{
+		font-family: "Montserrat AlternatesMedium";
+		font-size: 18px;
+		color: #9F9EA0;
+	}
+	.pos_photo{
+		display: none;
+		justify-content: end;
+		align-items: end;
+	}
+	.btnBuy_lastBlock{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		font-family: "Montserrat AlternatesMedium";
+		background-color: #F8763E;
+		width: 350px;
+		height: 40px;
+		border-radius: 20px;
+		color: #FDDAC1;
+		padding: 0;
+		text-decoration: none;
+		margin-top: 50px;
+		margin-bottom: 40px;
+		transition: ease 500ms;
+		font-size: 17px;
+	}
+	.btnBuy_lastBlock:hover{
+		color: #302F30;
+		transition: ease 500ms;
+	}
+	footer{
+		/* display: flex;
+		justify-content: center; */
+		background-color: #302F30;
+		width: auto;
+		height: 580px;
+	}
+	.footer_block{
+		padding-top: 32px;
+		width: 390px;
+		margin: 0 auto;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.LogoFooter{
+		width: 50px;
+		height: 50px;
+	}
+	.LogoFooter_block{
+		display: flex;
+		flex-direction:row;
+		width: 146px;
+		height: 50px;
+		justify-content: space-between;
+		margin: 0 0 40px 0;
+	}
+	.textFotMob{
+		display: block;
+		color: #A7A7A5;
+		font-size: 24px;
+		margin-top: 12px;
+		font-family: "Montserrat AlternatesMedium";
+	}
+	.textLogoFooter_block{
+		display: none;
+		font-family: "Montserrat AlternatesMedium";
+		width: 175px;
+		height: auto;
+		color: #A7A7A5;
+		font-size: 13px;
+	}
+	.reponsiveBlock_mob{
+		display: flex;
+		flex-wrap: wrap;
+		width: 386px;
+		height: max-content;
+		margin-left: 32px; 
+	}
+	.Link_footerBlock{
+		display: flex;
+		flex-direction: column;
+		width: 145px;
+	}
+	.fastLink_block_footer:nth-child(3){
+		width: 326px;
+	}
+	.fastLink_block_footer:nth-child(2){
+		width: 143px;
+	}
+	.fastLink_block_footer:nth-child(1){
+		width: 143px;
+		margin-right: 40px;
+	}
+	.fastLink_block_footer{
+		width: 145px;
+		margin-right: 20px;
+	}
+	.itemLink_footerBlock{
+		padding-bottom: 10px;
+	}
+	.itemLink_footerBlock:first-child{
+		width: 220px;
+		padding: 0px;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.itemLink_footerBlock a{
+		font-family: "Montserrat AlternatesMedium";
+		color: #A7A7A5;
+		font-size: 16px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		cursor: pointer;
+		transition: ease 500ms;
+	}
+	.itemLink_footerBlock a:hover{
+		transition: ease 500ms;
+		color: white;
+	}
+	.SkiwearInc{
+		font-family: "Montserrat AlternatesMedium";
+		width: 175px;
+		height: auto;
+		color: #A7A7A5;
+		font-size: 13px;
+		margin-left: 32px;
+		margin-top: 40px;
+	}
+}
