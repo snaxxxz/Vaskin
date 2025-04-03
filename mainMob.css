@@ -461,6 +461,7 @@
 		color: white;
 	}
 	.SkiwearInc{
+		display: block;
 		font-family: "Montserrat AlternatesMedium";
 		width: 175px;
 		height: auto;
