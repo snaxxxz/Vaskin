@@ -69,6 +69,21 @@ header{
 	align-items: center; 
 	justify-content: center; 
 }
+.itemLi_linkBasket{
+	font-family: "Montserrat Alternates";
+	font-weight: 100;
+	margin-right: 30px;
+	align-items: center;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	border: solid 1px;
+	border-radius: 0px;
+	padding: 0 20px;
+	color: #00000044;
+	height: 30px;
+	margin-top: 12px;
+}
 
 
 /* -----------main             */

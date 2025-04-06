@@ -123,6 +123,8 @@ header{
 	margin-bottom: 10px;
 }
 .jobTitle{
+	font-family: "Montserrat Alternates";
+	font-size: 13px;
 	color: #60442C;
 	height: 40px;
 }
