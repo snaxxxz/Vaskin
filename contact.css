@@ -69,59 +69,110 @@ header{
 	align-items: center; 
 	justify-content: center; 
 }
-
-/* main               */
-.main_block{
+/* main */
+.mainBlock{
 	width: 1440px;
 	margin: 0 auto;
-	display: flex;
 }
-.bg_photo{
-	background-image: url(/img/Reviews1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 800px;
-	width: 500px;
-}
-.second_mainBlock{
+.mainInfoBlock_mainBlock{
 	display: flex;
 	flex-direction: column;
-	margin-top: 10px;
-	margin-left: 50px;
-	justify-content: center;
 }
-.textAboutUS__main_block{
+.textOtdelMarketing{
 	font-family: "Montserrat AlternatesMedium";
+	color: #403E3F;
 	font-size: 35px;
-	color: #2F2E2E;
-}
-.mainTextAboutUS__main_block{
-	font-family: "Montserrat Alternates";
-	font-size: 20px;
-	line-height: 1.5;
-	width: 700px;
 	margin-top: 50px;
-	text-align: left;
-	color: #747273;
+	margin-bottom: 20px;
 }
-.btnAboutUS__main_block{
-	font-family: "Montserrat Alternates";
-	margin-top: 70px;
-	width: 200px;
-	height: 50px;
-	background-color: #000000;
-	border-radius: 10px;
-	list-style: none;
-	font-size: 15px;
-	text-decoration:none;
-	color: white;
+.otdelMarketing_mainBlock{
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
-/* footer */
+.item_persone__mainBlock{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 350px;
+	margin-right: 50px;
+}
+.otdelMarketing_mainBlock .item_persone__mainBlock:nth-child(1) .bgPhotoPersonal__mainBlock{
+	background-image: url(/img/Personal1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 0;
+	background-color: #e06c3b92;
+	width: 300px;
+	height: 200px;
+}
+.otdelMarketing_mainBlock .item_persone__mainBlock:nth-child(2) .bgPhotoPersonal__mainBlock{
+	background-image: url(/img/Personal2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 0;
+	background-color: #e06c3b92;
+	width: 300px;
+	height: 200px;
+}
+.namePesonalText__mainBlock{
+	font-family: "Montserrat Alternates";
+	font-size: 23px;
+	color: #E06D3B;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.jobTitle{
+	color: #60442C;
+	height: 40px;
+}
+.emailPersone__mainBlock{
+	font-family: "Uotfit";
+	background-image: url(/img/free-icon-email-13334308.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding-left: 30px;
+	font-size: 17px;
+}
+
+.textOtdelSales{
+	font-family: "Montserrat AlternatesMedium";
+	color: #403E3F;
+	font-size: 35px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	border-top: solid 1px;
+}
+.otdelSales_mainBlock .item_persone__mainBlock:nth-child(1) .bgPhotoPersonal__mainBlock{
+	background-image: url(/img/Personal3.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 0;
+	background-color: #e06c3b92;
+	width: 300px;
+	height: 200px;
+}
+.otdelSales_mainBlock .item_persone__mainBlock:nth-child(2) .bgPhotoPersonal__mainBlock{
+	background-image: url(/img/Personal4.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 0;
+	background-color: #e06c3b92;
+	width: 300px;
+	height: 200px;
+}
+.otdelSales_mainBlock .item_persone__mainBlock:nth-child(3) .bgPhotoPersonal__mainBlock{
+	background-image: url(/img/Personal5.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 0;
+	background-color: #e06c3b92;
+	width: 300px;
+	height: 200px;
+}
+.otdelSales_mainBlock{
+	display: flex;
+}
 footer{
 	/* display: flex;
 	justify-content: center; */
