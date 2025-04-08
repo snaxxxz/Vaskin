@@ -70,7 +70,14 @@ header{
 	align-items: center; 
 	justify-content: center; 
 }
-
+.itemLi_link a{
+	transition: ease 500ms;
+}
+.itemLi_link a:hover{
+	color: #2F2E2E;
+	transition: ease 500ms;
+}
+/* mian */
 
 #cart-items {
 	max-width: 800px;

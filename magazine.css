@@ -61,6 +61,13 @@ header{
 	text-decoration: none;
 	color: #ffffff;
 }
+.itemLi_link a{
+	transition: ease 500ms;
+}
+.itemLi_link a:hover{
+	color: #2F2E2E;
+	transition: ease 500ms;
+}
 .itemLi_link{
 	font-family: "Montserrat Alternates";
 	font-weight: 100;
@@ -109,6 +116,12 @@ header{
 	margin-right: 10px;
 	margin-bottom: 20px;
 	cursor: pointer;
+	transition: ease 500ms;
+}
+.filter-button:hover{
+	color: #fff;
+	background-color: #302F30;
+	transition: ease 500ms;
 }
 .productBlock_mainBlock{
 	display: flex;

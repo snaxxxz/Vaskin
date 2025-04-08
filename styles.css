@@ -67,7 +67,15 @@ header{
 	align-items: center;
 	display: flex; 
 	align-items: center; 
-	justify-content: center; 
+	justify-content: center;
+	transition: ease 500ms;
+}
+.itemLi_link a{
+	transition: ease 500ms;
+}
+.itemLi_link a:hover{
+	color: #2F2E2E;
+	transition: ease 500ms;
 }
 .itemLi_linkBasket{
 	font-family: "Montserrat Alternates";
@@ -131,6 +139,12 @@ header{
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.849);
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	transition: ease 500ms;
+}
+.btnTextInfo_block:hover{
+	background-color: #2F2E2E;
+	color: white;
+	transition: ease 500ms;
 }
 
 /*  о нас  */
@@ -423,8 +437,9 @@ header{
 	transition: ease 500ms;
 }
 .btnBuy_lastBlock:hover{
-	color: #302F30;
+	background-color: #2F2E2E;
 	transition: ease 500ms;
+	color: white	;
 }
 .mainphoto_lastBlock{
 	background-image: url(/img/lastBg.png);

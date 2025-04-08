@@ -60,6 +60,13 @@ header{
 	text-decoration: none;
 	color: #ffffff;
 }
+.itemLi_link a{
+	transition: ease 500ms;
+}
+.itemLi_link a:hover{
+	color: #2F2E2E;
+	transition: ease 500ms;
+}
 .itemLi_link{
 	font-family: "Montserrat Alternates";
 	font-weight: 100;
