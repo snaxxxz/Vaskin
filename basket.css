@@ -1,0 +1,247 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;
+}
+@font-face{
+	font-family: "Uotfit";
+	src: url(/Шрифты/outfit/Outfit-VariableFont_wght.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Lexend";
+	src: url(/Шрифты/Lexend/Lexend-VariableFont_wght.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Montserrat Alternates";
+	src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+	margin: 0;
+}
+@font-face{
+	font-family: "Montserrat AlternatesMedium";
+	src: url(/Шрифты/Montserrat_Alternates/MontserratAlternates-Medium.ttf);
+	margin: 0;
+}
+body{
+	margin: 0;
+	width: auto;
+}
+header{
+	background-color: #E06D3B;
+	font-family: "Uotfit";
+}
+.header_navBlock{
+	font-family: "Uotfit";
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 0 auto;
+  padding: 20px; 
+	
+}
+.logoBlock{
+	display: flex;
+	width: max-content;
+}
+.textLogo{
+	font-size: 24px;
+	color: #ffffff;
+	padding: 12px 12px;
+}
+.ul_blockHeader{
+	display: flex;
+	list-style-type: none;
+
+}
+.ul_blockHeader a{
+
+	text-decoration: none;
+	color: #ffffff;
+}
+.itemLi_link{
+	font-family: "Montserrat Alternates";
+	font-weight: 100;
+	margin-right: 30px;
+	align-items: center;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+
+
+#cart-items {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#total-price {
+	text-align: center;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #555;
+	font-family: "Montserrat Alternates";
+}
+
+.cart-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.cart-item img {
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.cart-item div {
+	flex-grow: 1;
+}
+
+.cart-item p {
+	margin: 5px 0;
+	color: #444;
+}
+
+.cart-item button {
+	background-color: #e74c3c; 
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 0.9em;
+	transition: background-color 0.2s ease;
+}
+
+.cart-item button:hover {
+	background-color: #c0392b; 
+}
+
+.cart-item .change-quantity{
+	background-color: #3498db;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.cart-item .change-quantity:hover {
+	background-color: #2980b9;
+}
+
+main{
+	width: 1440px;
+	margin: 0 auto;
+	min-height: 700px;
+}
+#cart-items p {
+	text-align: center;
+	font-style: italic;
+	color: #777;
+
+}
+.basketText{
+	font-family: "Montserrat Alternates";
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.imgBasket_item{
+	width: 200px;
+	height: 200px;
+}
+/* footer */
+footer{
+	background-color: #302F30;
+	width: auto;
+	height: 370px;
+}
+.footer_block{
+	padding-top: 122px;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+}
+.LogoFooter_block{
+	display: flex;
+	flex-direction: column;
+	width: 175px;
+	height: 170px;
+	justify-content: space-between;
+	margin-right: 100px;
+}
+.LogoFooter{
+	width: 95px;
+	height: 95px;
+}
+.textLogoFooter_block{
+	font-family: "Montserrat AlternatesMedium";
+	width: 175px;
+	height: auto;
+	color: #A7A7A5;
+	font-size: 13px;
+
+}
+.fastLink_block_footer{
+	width: 300px;
+	margin-right: 20px;
+}
+.fastLink_block_footer:last-child{
+	margin: 0px;
+}
+.Link_footerBlock{
+	display: flex;
+	flex-direction: column;
+}
+.itemLink_footerBlock:first-child{
+	font-family: "Montserrat Alternates";
+	color: #dededad2;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.itemLink_footerBlock{
+	font-family: "Montserrat AlternatesMedium";
+	color: #A7A7A5;
+	font-size: 16px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+.itemLink_footerBlock a{
+	font-family: "Montserrat AlternatesMedium";
+	color: #A7A7A5;
+	font-size: 16px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: ease 500ms;
+}
+.itemLink_footerBlock a:hover{
+	transition: ease 500ms;
+	color: white;
+}
+.itemLink_footerBlock:last-child{
+	margin: 0;
+}
+.textFotMob{
+	display: none;
+}
+.reponsiveBlock_mob{
+	display: flex;
+}
+.SkiwearInc{
+	display: none;
+}
